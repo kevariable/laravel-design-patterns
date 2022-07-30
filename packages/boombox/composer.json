@@ -1,0 +1,15 @@
+{
+    "name": "kevariable/boombox",
+    "autoload": {
+        "psr-4": {
+            "Kevariable\\Boombox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Abrar Khansa",
+            "email": "kevariable@gmail.com"
+        }
+    ],
+    "require": {}
+}
