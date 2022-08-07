@@ -3,8 +3,8 @@
 namespace Kevariable\Budgeting;
 
 use Carbon\Laravel\ServiceProvider;
-use Kevariable\Budgeting\Contracts\Leaf;
 use Kevariable\Budgeting\Contracts\Container;
+use Kevariable\Budgeting\Contracts\Leaf;
 
 class BudgetingServiceProvider extends ServiceProvider
 {
