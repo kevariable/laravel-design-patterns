@@ -8,7 +8,8 @@
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
         "kevariable/boombox": "*",
-        "kevariable/burger": "dev-main",
+        "kevariable/budgeting": "dev-main",
+        "kevariable/burger": "*",
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7"
@@ -69,6 +70,10 @@
         {
             "type": "path",
             "url": "./packages/burger"
+        },
+        {
+            "type": "path",
+            "url": "./packages/budgeting"
         }
     ]
 }

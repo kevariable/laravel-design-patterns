@@ -169,6 +169,7 @@ return [
          */
         \Kevariable\Boombox\BoomboxServiceProvider::class,
         \Kevariable\Burger\BurgerServiceProvider::class,
+        \Kevariable\Budgeting\BudgetingServiceProvider::class,
 
         /*
          * Application Service Providers...

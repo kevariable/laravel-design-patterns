@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5690bb1c1648df682131f5d3513b117",
+    "content-hash": "f1fef95b7f1244f4bda39301041dda1e",
     "packages": [
         {
             "name": "brick/math",
@@ -899,12 +899,37 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/boombox",
-                "reference": "ef78c8db4a2b607f29a4df806f7afb974007d2d3"
+                "reference": "c1a9b08ce91e6785a571475b2aa146f90a14d7d6"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Kevariable\\Boombox\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Kevin Abrar Khansa",
+                    "email": "kevariable@gmail.com"
+                }
+            ],
+            "description": "Behaviour Design Patterns - State",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "kevariable/budgeting",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./packages/budgeting",
+                "reference": "5e58a70ca51eaaadd6d45cbb90dc374fddd8202f"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Kevariable\\Budgeting\\": "src/"
                 }
             },
             "authors": [
@@ -923,7 +948,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/burger",
-                "reference": "6d58c9092f77966c7b00fa5069ec73b544773890"
+                "reference": "4b62cdb111bbcb4acf3345dd34165331b3e9b3b2"
             },
             "type": "library",
             "autoload": {
@@ -937,7 +962,7 @@
                     "email": "kevariable@gmail.com"
                 }
             ],
-            "description": "Decorator Patterns represent of Burger",
+            "description": "Behaviour Design Patterns - Decorator",
             "transport-options": {
                 "relative": true
             }
@@ -7954,7 +7979,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "kevariable/burger": 20
+        "kevariable/budgeting": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
