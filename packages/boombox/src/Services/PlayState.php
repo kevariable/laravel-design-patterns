@@ -1,9 +1,7 @@
 <?php
 
-namespace Kevariable\Boombox\States;
+namespace Kevariable\Boombox\Services;
 
-use Illuminate\Support\Facades\Log;
-use Kevariable\Boombox\Boombox;
 use Kevariable\Boombox\Foundation\State;
 
 class PlayState extends State

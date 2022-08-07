@@ -1,9 +1,9 @@
 {
-    "name": "kevariable/boombox",
-    "description": "Behaviour Design Patterns - State",
+    "name": "kevariable/burger",
+    "description": "Behaviour Design Patterns - Decorator",
     "autoload": {
         "psr-4": {
-            "Kevariable\\Boombox\\": "src/"
+            "Kevariable\\Burger\\": "src/"
         }
     },
     "authors": [

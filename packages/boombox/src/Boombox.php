@@ -4,9 +4,9 @@ namespace Kevariable\Boombox;
 
 use Illuminate\Contracts\Container\Container;
 use Kevariable\Boombox\Contracts\State;
-use Kevariable\Boombox\States\PauseState;
-use Kevariable\Boombox\States\PlayState;
-use Kevariable\Boombox\States\StopState;
+use Kevariable\Boombox\Services\PauseState;
+use Kevariable\Boombox\Services\PlayState;
+use Kevariable\Boombox\Services\StopState;
 
 class Boombox
 {

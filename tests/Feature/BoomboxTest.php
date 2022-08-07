@@ -4,9 +4,9 @@ namespace Tests\Feature;
 
 use Kevariable\Boombox\Boombox;
 use Kevariable\Boombox\Exceptions\PauseException;
-use Kevariable\Boombox\States\PauseState;
-use Kevariable\Boombox\States\PlayState;
-use Kevariable\Boombox\States\StopState;
+use Kevariable\Boombox\Services\PauseState;
+use Kevariable\Boombox\Services\PlayState;
+use Kevariable\Boombox\Services\StopState;
 use Tests\TestCase;
 
 class BoomboxTest extends TestCase

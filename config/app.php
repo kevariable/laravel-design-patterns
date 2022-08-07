@@ -167,6 +167,8 @@ return [
         /*
          * Package Service Providers...
          */
+        \Kevariable\Boombox\BoomboxServiceProvider::class,
+        \Kevariable\Burger\BurgerServiceProvider::class,
 
         /*
          * Application Service Providers...

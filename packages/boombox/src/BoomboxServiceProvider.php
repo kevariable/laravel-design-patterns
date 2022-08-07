@@ -4,7 +4,7 @@ namespace Kevariable\Boombox;
 
 use Illuminate\Support\ServiceProvider;
 use Kevariable\Boombox\Contracts\State;
-use Kevariable\Boombox\States\StopState;
+use Kevariable\Boombox\Services\StopState;
 
 class BoomboxServiceProvider extends ServiceProvider
 {

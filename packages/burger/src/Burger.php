@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Services\Burger;
+namespace Kevariable\Burger;
 
-use App\Contracts\Food;
+use Kevariable\Burger\Contracts\Food;
 
 class Burger implements Food
 {

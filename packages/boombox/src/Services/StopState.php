@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevariable\Boombox\States;
+namespace Kevariable\Boombox\Services;
 
 use Kevariable\Boombox\Exceptions\PauseException;
 use Kevariable\Boombox\Foundation\State;

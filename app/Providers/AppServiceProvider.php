@@ -13,7 +13,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(\App\Contracts\Food::class, \App\Services\Burger\Burger::class);
     }
 
     /**
