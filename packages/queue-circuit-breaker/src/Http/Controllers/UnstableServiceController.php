@@ -10,11 +10,13 @@ class UnstableServiceController extends Controller
 {
     public function __invoke(): bool
     {
-        if (! Cache::get('unstable-services:controller')) {
-            return Cache::remember('unstable-services:controller', ttl: 5, callback: fn () => 1);
+        echo Cache::get('unstable-services');
+
+        if (! Cache::get('unstable-services')) {
+            return Cache::remember('unstable-services', ttl: 5, callback: fn () => 1);
         }
 
-        Cache::forget('unstable-services:controller');
+        Cache::forget('unstable-services');
 
         return throw new TooManyRequestsHttpException(
             retryAfter: 5
