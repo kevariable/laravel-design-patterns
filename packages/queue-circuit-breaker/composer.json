@@ -1,0 +1,16 @@
+{
+    "name": "kevariable/queue-circuit-breaker",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kevariable\\QueueCircuitBreaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kevin Abrar Khansa",
+            "email": "kevin.abrar@simajji.com"
+        }
+    ],
+    "require": {}
+}

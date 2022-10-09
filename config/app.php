@@ -170,6 +170,7 @@ return [
         \Kevariable\Boombox\BoomboxServiceProvider::class,
         \Kevariable\Burger\BurgerServiceProvider::class,
         \Kevariable\Budgeting\BudgetingServiceProvider::class,
+        \Kevariable\QueueCircuitBreaker\CircuitBreakerServiceProvider::class,
 
         /*
          * Application Service Providers...
