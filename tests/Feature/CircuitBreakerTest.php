@@ -22,18 +22,10 @@ it('circuit breaker can handle too many request', function () {
     Carbon::setTestNow(Carbon::now()->setSeconds(5));
 
     postJson('/api/circuit-breaker/handling')
-        ->assertJson([
-            'meta' => [
-                'status' => Response::HTTP_OK
-            ]
-        ]);
+        ->assertOk();
 
     Carbon::setTestNow(Carbon::now()->setSeconds(5));
 
     postJson('/api/circuit-breaker/handling')
-        ->assertJson([
-            'meta' => [
-                'status' => Response::HTTP_OK
-            ]
-        ]);
+        ->assertOk();
 });
