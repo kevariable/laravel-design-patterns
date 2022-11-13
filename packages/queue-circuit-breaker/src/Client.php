@@ -12,6 +12,7 @@ class Client implements Request
     {
         return Http::acceptJson()
             ->timeout(5)
-            ->get(url('/api/circuit-breaker/unstable-service'));
+            ->get(url('/api/circuit-breaker/unstable-service'))
+            ->throw();
     }
 }

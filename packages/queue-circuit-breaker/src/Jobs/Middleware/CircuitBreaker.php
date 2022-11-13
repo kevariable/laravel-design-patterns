@@ -2,9 +2,9 @@
 
 namespace Kevariable\QueueCircuitBreaker\Jobs\Middleware;
 
-use Illuminate\Contracts\Queue\Job;
 use Illuminate\Http\Client\RequestException;
 use Illuminate\Http\Client\Response;
+use Kevariable\QueueCircuitBreaker\Actions\ResolveInternalServerErrorAction;
 use Kevariable\QueueCircuitBreaker\Actions\ResolveTooManyRequestAction;
 use Kevariable\QueueCircuitBreaker\Contracts\Command;
 use Symfony\Component\HttpFoundation\Response as Code;
@@ -24,7 +24,7 @@ class CircuitBreaker
     {
         $resolver = match ($response->status()) {
             Code::HTTP_TOO_MANY_REQUESTS => ResolveTooManyRequestAction::class,
-
+            Code::HTTP_INTERNAL_SERVER_ERROR => ResolveInternalServerErrorAction::class,
             default => null
         };
 
